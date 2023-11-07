@@ -18,7 +18,7 @@ class Customer (models.Model) :
     
 class Payment (models.Model) :
     payment_method = models.CharField(max_length=10, primary_key=True)
-    description = models.CharField(max_length=100, null=True, blank=True)
+    payment_description = models.CharField(max_length=100, null=True, blank=True)
     class Meta:
         db_table = "payment"
         managed = False

@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'index',
+    'app_user',
 ]
 
 MIDDLEWARE = [
@@ -76,7 +77,7 @@ WSGI_APPLICATION = 'pet_shop.wsgi.application'
 
 DATABASES = { 'default': {
               'ENGINE': 'django.db.backends.postgresql_psycopg2',
-              'NAME': 'lab2',
+              'NAME': 'pet_shop',
               'USER': 'postgres',
               'PASSWORD': 'AAAsss111',
               'HOST': 'localhost',
